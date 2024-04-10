@@ -52,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1529DC652BC6C79600768628 /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		1529DC662BC6C79600768628 /* Font Awesome 6 Pro-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Regular-400.otf"; sourceTree = "<group>"; };
+		1529DC672BC6C79600768628 /* Font Awesome 6 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Solid-900.otf"; sourceTree = "<group>"; };
+		1529DC682BC6C7F300768628 /* Font Awesome 6 Duotone-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Duotone-Solid-900.otf"; sourceTree = "<group>"; };
+		1529DC692BC6C81C00768628 /* Font Awesome 6 Pro-Light-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Light-300.otf"; sourceTree = "<group>"; };
 		484F4A361ECC816A0010B0BA /* FontAwesomeBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeBarButtonItem.swift; sourceTree = "<group>"; };
 		484F4A371ECC816A0010B0BA /* FontAwesomeImageRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeImageRepresentable.swift; sourceTree = "<group>"; };
 		484F4A381ECC816A0010B0BA /* FontAwesomeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeImageView.swift; sourceTree = "<group>"; };
@@ -178,6 +183,11 @@
 		84E07774210CA54300CF2885 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1529DC692BC6C81C00768628 /* Font Awesome 6 Pro-Light-300.otf */,
+				1529DC682BC6C7F300768628 /* Font Awesome 6 Duotone-Solid-900.otf */,
+				1529DC652BC6C79600768628 /* Font Awesome 6 Brands-Regular-400.otf */,
+				1529DC662BC6C79600768628 /* Font Awesome 6 Pro-Regular-400.otf */,
+				1529DC672BC6C79600768628 /* Font Awesome 6 Pro-Solid-900.otf */,
 				84E07768210C47DD00CF2885 /* Font Awesome 5 Brands-Regular-400.otf */,
 				84E0776A210C47DD00CF2885 /* Font Awesome 5 Free-Regular-400.otf */,
 				84E07769210C47DD00CF2885 /* Font Awesome 5 Free-Solid-900.otf */,
@@ -613,7 +623,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FontAwesome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "im.thi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -634,7 +644,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FontAwesome/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "im.thi.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
