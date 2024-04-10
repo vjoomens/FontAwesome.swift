@@ -2716,7 +2716,7 @@ public enum FontAwesome: String, CaseIterable {
             case .child: return "\u{f1ae}"
             case .chimney: return "\u{f78b}"
             case .chrome: return "\u{f268}"
-            case .chromecast: return "\u{f838}"
+            case .chromecast: return "\u{e23e}"
             case .church: return "\u{f51d}"
             case .circle: return "\u{f111}"
             case .circleNotch: return "\u{f1ce}"
